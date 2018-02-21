@@ -1,0 +1,14 @@
+/*列3-2 矩形面积计算*/
+/*列3-2 矩形面积计算*/
+import java.util.Scanner;
+public class RectangleAreaIn {
+public   static void main(String[] args){
+    Scanner in1=new Scanner(System.in);
+    System.out.print("Please enter length and width:");
+    int length=in1.nextInt();
+    int width=in1.nextInt();
+            int area=length*width;
+    System.out.println("Length="+length+",Width"+width+",area="+area);
+    }}
+/*列3-2 矩形面积计算*/
+/*列3-2 矩形面积计算*/ 
