@@ -1,0 +1,19 @@
+/* 列3-6递归计算阶乘*/
+/* 列3-6递归计算阶乘*/
+import java.util.Scanner;
+public class Factorial {
+    public static void main(String[] args){
+        Scanner in= new Scanner(System.in);
+        System.out.print("Please enter a number:");
+        int n=in.nextInt();
+        if (n<0)
+            System.out.println("Not a correct number");
+        System.out.println("Factorial of "+n+"="+factoria(n) );
+    }
+    public static int factoria(int n){
+        if(n==0)return  1;
+        else return  n*factoria(n-1);
+    }
+}
+/* 列3-6递归计算阶乘*/
+/* 列3-6递归计算阶乘*/
